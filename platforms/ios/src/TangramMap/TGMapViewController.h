@@ -533,6 +533,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark Marker access
 
+- (void)removeMarker:(Tangram::MarkerID)identifier;
 /**
  Removes all the markers added to the map view.
  */
